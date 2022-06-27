@@ -16,5 +16,5 @@ spec:
         - name: chatapp-container
           image: gopal1409/chatapp:v1
           ports:
-            - 8080
+            - containerPort: 8080
       
